@@ -17,11 +17,11 @@ h2,
 }
 
 button {
-  border: 2px solid #5a6275;
+  border: 3px solid #5a6275;
   border-radius: 50px;
   padding: 70px 30px 70px;
-  background: transparent;
-  top: -140px;
+  background: #35b5e0 !important;
+  top: -150px;
   left: 150px;
   max-width: 180px;
 }
@@ -98,11 +98,16 @@ ul {
 }
 
 .mainContainer {
+  background-image: url("../media/background_img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
   max-width: 800px;
   margin: 0 auto;
   border: 2px solid #c8e5e7;
   border-radius: 5px;
 }
+
 .searchContainer {
   border-radius: 40px !important;
   box-sizing: content-box;
